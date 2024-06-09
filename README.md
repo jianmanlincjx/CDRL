@@ -12,8 +12,14 @@
 The obtained MEAD dataset is first preprocessed with 'dataloader/align_face.py':
 
 ```bash
-python ./dataloader/align_face.py
+python align_face.py
 ```
+Get audio feature corresponding to image:
+
+```bash
+python w2f.py
+```
+
 
 ## Training CCRL
 ```bash
