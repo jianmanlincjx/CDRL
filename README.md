@@ -17,13 +17,13 @@ python ./dataloader/align_face.py
 
 ## Training CCRL
 ```bash
-cd CCRL \\
+cd CCRL 
 python train.py
 ```
 
 
 ## Training CDRL
 ```bash
-cd CDRL \\
+cd CDRL 
 python train.py
 ```
