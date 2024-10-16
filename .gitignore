@@ -1,0 +1,51 @@
+# Ignore specific file types
+*.zip
+*.png
+*.npy
+*.pkl
+*.mp4
+*.pth
+*.txt
+*.wav
+*.pt
+*.tar
+*.model
+*.npz
+*.ckpt
+*.obj
+
+# Ignore Python temporary files and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+temp.py
+
+# Ignore specific experiment and result directories
+exp/
+metrics/
+result_concat/
+result_video/
+manipulator_checkpoints/
+MEAD_audio_feature/
+MEAD_data/
+
+# Ignore rendering and related directories
+render_test/
+render_train/
+render_reference/
+renderer_checkpoints/
+renderer_checkpoints_me/
+renderer_checkpoints_RAVDESS/
+prompt_learning/
+attention_image/
+# Ignore datasets and references
+reference/
+RAVDESS/
+reference_examples/
+MEAD_audio_feature/
+MEAD_data/
+reference_examples/
+
+# Ignore environment or build directories (optional based on your project structure)
+.env/
+build/
