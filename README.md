@@ -33,3 +33,21 @@ python train.py
 cd CDRL 
 python train.py
 ```
+
+## The integration of CDRL into NED
+First, follow the data preparation and processing workflow of NED.
+Supervising the training of the first-stage emotion manipulator
+```bash
+bash run_manipulator.sh
+```
+
+Supervising the training of the second-stage renderer.
+```bash
+bash run_render.sh
+```
+
+Testing metrics on the test set.
+```bash
+cd metrics
+bash eval_crossID_driven.sh
+```
